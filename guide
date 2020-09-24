@@ -1,0 +1,12 @@
+https://medium.com/@mattiaperi/create-a-public-helm-chart-repository-with-github-pages-49b180dbb417
+
+helm create mysample-app
+
+
+helm repo index --url 
+
+helm lint mysample-app
+
+helm package mysample-app
+
+helm repo index --url https://gabo89.github.io/helm-chart-repo/
