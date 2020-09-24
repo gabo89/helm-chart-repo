@@ -10,6 +10,10 @@ helm package mysample-app
 
 helm repo index --url https://gabo89.github.io/helm-chart-repo/ .
 
+
+------------------------------------------------
+
+
 helm repo add myhelmrepo https://gabo89.github.io/helm-chart-repo/
 
 helm repo list
@@ -17,6 +21,3 @@ helm repo list
 helm search repo mysample
 
 
-export POD_NAME=$(kubectl get pods --namespace gabrielapps | grep Running | awk '{print $1}')
-
-kubectl --namespace gabrielapps port-forward $POD_NAME 8091:80
