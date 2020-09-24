@@ -3,12 +3,22 @@ entries:
   mysample-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-24T11:55:44.869582111-05:00"
+    created: "2020-09-24T12:35:20.059151559-05:00"
     description: A Helm chart for Kubernetes
-    digest: 1bf297143912d18e23466fe952bd9e30c04cd0223dc83593f9f32c4917d5eae4
+    digest: 41a8eccf399df2b80a4bec28a39d4b4f9c5ae3b2525f279cf284486dc3ae532e
+    name: mysample-app
+    type: application
+    urls:
+    - https://gabo89.github.io/helm-chart-repo/mysample-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-24T12:35:20.058738546-05:00"
+    description: A Helm chart for Kubernetes
+    digest: daee7644f4d96778286909ac164ee95d6753ec7ee02573e48d68a8a33f442946
     name: mysample-app
     type: application
     urls:
     - https://gabo89.github.io/helm-chart-repo/mysample-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-24T11:55:44.869090883-05:00"
+generated: "2020-09-24T12:35:20.058171869-05:00"
